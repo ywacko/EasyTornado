@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更新</title>
+</head>
+<body>
+    <h1>请输入更新内容</h1>
+    <form action="/update" method="post">
+        <p>表格名（必填）：</br><input type="text" name="table"/></p>
+        <p>待更新列（必填）：</br><input type="text" name="column"/></p>
+        <p>新的值（必填，如为非数字需加双引号）：</br><input type="text" name="value"/></p>
+        <p>确定元素（如有）：</br><input type="text" name="id"/></p>
+        <input type="submit" value="提交" />
+    </form>
+</body>
+</html>
